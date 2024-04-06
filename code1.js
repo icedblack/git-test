@@ -1,6 +1,7 @@
 console.log(111)
 function debounce(fn,time){
     let timer;
+    console.log('提交方法测试');
     return function(){
         clearTimeout(timer);//清除定时器
         timer = setTimeout(()=>{
